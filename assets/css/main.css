@@ -1332,6 +1332,20 @@ section._bgColor {
 
 /*--- SECTION CONNECT ---*/
 
+.a-card { 
+  background: linear-gradient(90deg, rgba(32,129,226,1) 0%, rgba(0,89,179,1) 100%);
+  padding: 40px;
+  border-radius: 8px;
+  color: #fff; 
+  transition: all 0.3s; 
+} 
+
+.a-card:hover {
+  transform: translateY(-12px); 
+  transition: all 0.3s; 
+  box-shadow: 0 1rem 3rem rgba(32, 129, 226, 0.25); 
+}
+
 .connect {
   border-bottom: 1px solid rgba(66, 232, 224, 0.5);
 }
