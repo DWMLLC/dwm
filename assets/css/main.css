@@ -1332,11 +1332,11 @@ section._bgColor {
 
 /*--- SECTION CONNECT ---*/
 
-#contact .a-card .icon-box{
+.a-card .icon-box{
   display: inline-block;
 }
 
-#contact .a-card:hover .icon-box{
+.a-card:hover .icon-box{
   transform: rotateY(360deg);
   transition: all 0.8s ease; 
 }
