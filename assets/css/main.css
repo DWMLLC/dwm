@@ -1332,6 +1332,15 @@ section._bgColor {
 
 /*--- SECTION CONNECT ---*/
 
+#contact .a-card .icon-box{
+  display: inline-block;
+}
+
+#contact .a-card:hover .icon-box{
+  transform: rotateY(360deg);
+  transition: all 0.8s ease; 
+}
+
 .a-card { 
   background: linear-gradient(90deg, rgba(32,129,226,1) 0%, rgba(0,89,179,1) 100%);
   padding: 40px;
